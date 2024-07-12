@@ -15,7 +15,9 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+/* .maincomponent{
+  background-color: rgb(253, 238, 240);
+} */
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
