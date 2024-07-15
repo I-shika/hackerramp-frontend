@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Navbar from "@/Components/navbar";
-import Profile from "@/Components/profile";
-export default function Newpage() {
+import Viewallposts from "@/Components/viewallpost";
+export default function joincomp() {
+    
   return (
     <main>
       <div>
       <Navbar/>
-     <Profile userid={null}/>
+     <Viewallposts />
      </div>
     </main>
   );

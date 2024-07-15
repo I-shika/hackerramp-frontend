@@ -12,8 +12,8 @@ export default function Dropdown() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50">
-          Open Menu
+        <Menu.Button className="inline-flex justify-center w-full rounded-md text-md  bg-pink-100  font-medium text-gray-700 hover:bg-pink-100 hover:underline-offset-4">
+          DIVAS
         </Menu.Button>
       </div>
 
@@ -43,13 +43,13 @@ export default function Dropdown() {
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <Link href="/settings" passHref
+                <Link href="" passHref
                     className={classNames(
                       active ? 'bg-gray-100' : '',
                       'block px-4 py-2 text-sm text-gray-700'
                     )}
                   >
-                    Settings
+                   Home
                 
                 </Link>
               )}

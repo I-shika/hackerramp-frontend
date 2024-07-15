@@ -58,12 +58,12 @@ export default function Communityforum({ initialUsers }) {
     };
 
     return (
-        <div className=" bg-pink-100 ">
-            <div className=" w-3/5 m-auto h-auto pt-10 pb-10">
-                <div className="text-3xl pb-5">
+        <div className=" bg-pink-100 w-1/2 ">
+            <div className=" w-11/12 m-auto h-auto pt-10 pb-10">
+                <div className="text-3xl pb-5 text-center">
                     Your Views
                 </div>
-                <div className="comment section flex flex-col bg-white h-auto text-black ">
+                <div className="comment section flex flex-col bg-white h-auto rounded-lg text-black pb-4 ">
                 <div className="flex justify-around w-full pt-6">
                         <div className="w-5/6">
                             <input
@@ -71,7 +71,7 @@ export default function Communityforum({ initialUsers }) {
                                 value={inputValue}
                                 onChange={handleInputChange}
                                 placeholder="Add Comment..."
-                                className="pt-1 pb-1 pl-2 h-10 border-0 w-full"
+                                className="pt-1 pb-1 pl-2 h-10 border-0 w-full bg-slate-200 rounded-lg"
                             />
                         </div>
                         <div className="1/12">

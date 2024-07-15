@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Navbar from "@/Components/navbar";
-import Profile from "@/Components/profile";
-export default function Newpage() {
+import JoinCompetition from "@/Components/joinCompetition";
+export default function joincomp() {
+    
   return (
     <main>
       <div>
       <Navbar/>
-     <Profile userid={null}/>
+     <JoinCompetition />
      </div>
     </main>
   );

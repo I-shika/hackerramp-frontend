@@ -1,0 +1,24 @@
+Custom file input
+.file-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .file-input-label {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .file-input-label:hover {
+    background-color: #45a049;
+  }
+  
+  .file-input {
+    display: none; /* Hide the default file input */
+  }
+  
